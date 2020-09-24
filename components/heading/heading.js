@@ -3,7 +3,7 @@ export class Heading extends Component {
     render (){
         return (
             <div>
-                Notes <button className=" btn btn-primary">Akash</button>
+                <h1>Notes</h1>
             </div>
         );
     }
