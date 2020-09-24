@@ -1,8 +1,12 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import Head from "next/head";
+import { Heading } from "../components/heading/heading";
+import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (
-    <div>index page</div>
-  )
+    <div>
+    <div>INDEX PAGE</div>
+   <Heading />
+  </div>
+    );
 }
