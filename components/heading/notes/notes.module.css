@@ -1,0 +1,61 @@
+
+.card {
+    background-color: darksalmon;
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+    padding: 3em 1.2em;
+    position: relative;
+   
+ }
+
+  .cards{
+    display: inline-flex;
+  }
+
+  .title{
+    font-size: 1.2em;
+    line-height: 1.2;
+    font-weight: 500;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .date{
+    margin-top: 3.5em;
+    color: aqua;
+    font-weight: 500;
+   
+  }
+
+  .edit{
+    background: black;
+    border-radius: 50%;
+    padding: 0.6em;
+    display: -moz-box;
+    display: flex;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+  }
+  
+  .edit svg {
+    color: white;
+  }
+
+  .stars{
+    background: black;
+    border-radius: 50%;
+    padding: 0.6em;
+    display: -moz-box;
+    display: flex;
+   position: absolute;
+    right: 10px;
+    top: 10px;
+  }
+
+  .stars svg{
+    color: antiquewhite;
+  }
