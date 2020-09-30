@@ -43,7 +43,7 @@ export class Notes extends Component {
             </div>  
          </div>
          <div className="col-md-4">
-             <div className={style.card}>
+             <div className={style.card1}>
                  <div className={style.title}>
                  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
@@ -76,7 +76,7 @@ export class Notes extends Component {
              </div>
          </div>
          <div className="col-md-4">
-             <div className={style.card}>
+             <div className={style.card2}>
                  <div className={style.title}>
                  Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry.

@@ -1,13 +1,31 @@
 
 .card {
-    background-color: darksalmon;
+    background-color: yellow;
     width: 250px;
     height: 250px;
     border-radius: 20px;
     padding: 3em 1.2em;
     position: relative;
-   
+   }
+ 
+.card1 {
+  background-color: fuchsia;
+  width: 250px;
+  height: 250px;
+  border-radius: 20px;
+  border: 1px black solid;
+  padding: 3em 1.2em;
+  position: relative;
  }
+.card2 {
+  background-color: chartreuse;
+  width: 250px;
+  height: 250px;
+  border-radius: 20px;
+  padding: 3em 1.2em;
+  position: relative;
+ 
+}
 
   .cards{
     display: inline-flex;
@@ -25,7 +43,7 @@
 
   .date{
     margin-top: 3.5em;
-    color: aqua;
+    color: blue;
     font-weight: 500;
    
   }
