@@ -1,12 +1,35 @@
 import { Component } from "react";
+import { Heading } from "../heading";
 import style from "./notes.module.css";
+
 
 export class Notes extends Component {
     render() {
         return(
 
-            <div>
-                <div className={style.cards}>
+            <div className={style.parent}>
+             <div className={style.sideBar}>
+               <h6>Todo-app</h6>
+               <div className={style.plus}>
+               <svg width="2em" 
+               height="2em" 
+               viewBox="0 0 16 16" 
+               class="bi bi-plus" 
+               fill="currentColor" 
+               xmlns="http://www.w3.org/2000/svg">
+  <path fill-rule="evenodd" 
+  d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
+</svg>
+               </div>
+               </div>
+              <div className="row"
+                   style={{
+                     marginLeft: "0px",
+                     marginRight: "0px",
+                   }}
+                   >
+                <div className={(style.cards, "col-md-12")}>
+                  < Heading />
                 <div className="row" style={{ width:"100%"}}>
                     {" "}
                     <div className="col-md-4">
@@ -110,6 +133,7 @@ export class Notes extends Component {
          </div>
       </div>
     </div>
+</div>
 </div>
         );
     }
