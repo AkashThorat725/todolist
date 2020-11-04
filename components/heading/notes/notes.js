@@ -8,7 +8,8 @@ export class Notes extends Component {
         return(
 
             <div className={style.parent}>
-             <div className={style.sideBar}>
+              <div className="row">
+                <div className="col-md-1"> <div className={style.sideBar}>
                <h6>Todo-app</h6>
                <div className={style.plus}>
                <svg width="2em" 
@@ -21,13 +22,9 @@ export class Notes extends Component {
   d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
 </svg>
                </div>
-               </div>
-              <div className="row"
-                   style={{
-                     marginLeft: "0px",
-                     marginRight: "0px",
-                   }}
-                   >
+               </div></div>
+               <div className="col-md-11 offset-1">
+               <div className="row">
                 <div className={(style.cards, "col-md-12")}>
                   < Heading />
                 <div className="row" style={{ width:"100%"}}>
@@ -134,6 +131,10 @@ export class Notes extends Component {
       </div>
     </div>
 </div>
+               </div>
+              </div>
+            
+              
 </div>
         );
     }
